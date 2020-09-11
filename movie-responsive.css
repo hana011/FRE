@@ -1,0 +1,113 @@
+@media all and (max-width:1100px){
+    /*header部分*/
+    .header-left h1{
+        font-size:18px;
+        padding-top:20px;
+    }
+    .txt{
+        color:red;
+        font-size:35px;
+    }
+    .header-right{
+        padding-top:40px;
+    }
+    .header-right a{
+        font-size:15px;
+    }
+    /*トップの画像部分*/
+    .top-wrapper{
+        height:700px;
+    }
+    .top-text{
+        padding-top:200px;
+    }
+    .top-text h2{
+        color:white;
+        text-align:center;/*キャッチコピーを真ん中に*/
+        font-size:30px;
+        padding-top:50px;
+    }
+    /*musicコーナー*/
+    
+}
+
+@media all and (max-width:670px){
+    /*header部分*/
+    header{
+        height:50px;
+    }
+    .header-left img{
+        width:45px;
+        height:45px;
+        padding-top:5px;
+    }
+    .header-left h1{
+        font-size:12px;
+        padding:14px 0px 0px 50px;
+    }
+    .menu-icon{
+        display:block;
+    }
+    .header-right{
+        display:none;
+    }
+    .txt{
+        font-size:24px;
+    }
+    /*トップの画像部分*/
+    .top-wrapper{
+        height:600px;
+        background-image:url(img/movie素材スマホ.png);
+    }
+    .top-text{
+        padding-top:200px;
+    }
+    .top-text h2{
+        color:white;
+        text-align:center;/*キャッチコピーを真ん中に*/
+        font-size:25px;
+        padding-top:50px;
+    }
+
+    /*music部分*/
+    .music-text{
+        font-size:18px;
+    }
+    .music-text span{
+        border-bottom:4px solid red;
+        padding-bottom:10px;
+    }
+    .fa-camera{
+        padding-right:10px;
+    }
+    /*折り返し*/
+    .music-contents{
+        flex-wrap:wrap;
+    }
+    .music{
+        width:100%;
+    }
+    .music img{
+        padding-left:0px;
+    }
+    .music p{
+        font-size:14px;
+        line-height:40px;
+    }
+    .music-p{
+        padding-top:30px;
+    }
+
+    /*footer部分*/
+    .footer-list{
+        font-size:16px;
+    }
+    .footer-list a{
+        padding-right:20px;
+    }
+    .footer-text p{
+        color:white;
+        font-size:14px;
+        padding-top:30px;
+    }
+}
